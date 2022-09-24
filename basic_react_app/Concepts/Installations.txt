@@ -1,0 +1,74 @@
+
+**************   required
+
+1.  Node
+    Node.js is a JavaScript runtime for server-side programming.
+    It allows developers to create scalable backend functionality using JavaScript,
+    a language many are already familiar with from browser-based web development.
+
+    install using sudo 
+        update = sudo apt update
+        install = sudo apt install nodejs
+        check =  node -v
+
+        NPX  = default install in node
+                    
+    ### Create react app using npx ###
+
+        npx =
+            package runner tool that comes with npm 5.2+.
+            not required to install create-react-app globally.
+
+
+        npx create-react-app 'app name'
+
+2.  npm
+
+        npm package manager
+
+        $   install using sudo :
+                install = sudo apt install npm
+                check =  npm -v
+
+        $   install create-react-app globally
+
+                install = npm install -g create-react-app  
+                create app = create-react-app appName  
+
+$   run react project
+
+        npm start
+                Starts the development server.
+        npm run build
+                Bundles the app into static files for production.
+        npm test
+                Starts the test runner.
+
+$   install node modules
+
+        npm i 'modules name'
+
+        -–save: When this command is used with npm install this will save all your installed core 
+                packages into the dependency section in the package.json file. Core dependencies are
+                those packages without which your application will not give desired results.
+
+        –-save-dev: With this command your installed packages will be added to devDependency section 
+                of the package.json file. Development dependencies are those packages which only 
+                meant for development purpose it will not affect the application’s result.
+        
+        Create package.json : npm init
+
+$   Run Cloned Project:
+
+        1. git clone "clone url".
+        2. go to clone location.
+        3. npm i. - install all package from package.json
+        4. npm start.
+
+
+
+
+
+
+
+
